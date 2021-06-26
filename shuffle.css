@@ -1,0 +1,122 @@
+@media only screen and (max-width: 600px) {
+    .heading {
+        width: 100% !important;
+        background-color: black;
+        color: #fff;
+        height: 37px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 23px;
+    }
+
+    .sort-by {
+        bottom: -42px !important;
+        left: 169px !important;
+    }
+
+    .shuffle-sort-container {
+        flex-direction: column-reverse;
+        background-color: #fff !important;
+        align-items: center;
+        width: 100% !important;
+    }
+
+    .buttons-container {
+        flex-direction: row !important;
+        width: 100% !important;
+        justify-content: center;
+    }
+
+    .cards-container {
+        display: block !important;
+        flex-direction: column !important;
+        flex-flow: nowrap !important;
+        width: 63% !important;
+    }
+
+    .box {
+        width: 330px !important;
+        height: 44px !important;
+        display: flex !important;
+        align-items: center !important;
+        color: black !important;
+        justify-content: flex-end !important;
+        margin-bottom: 5px !important;
+    }
+
+    .box-text {
+        width: 98%;
+        background-color: #EFEFEF;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 12px !important;
+        align-items: center;
+    }
+}
+
+.heading {
+    width: 800px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.shuffle-sort-container {
+    width: 800px;
+    height: 507px;
+    display: flex;
+    background-color: #EFEFEF;
+    position: relative;
+}
+
+.cards-container {
+    width: 60%;
+    height: 450px;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.buttons-container {
+    width: 43%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons-container button {
+    margin: 12px;
+    width: 106px;
+    background-color: rgb(43, 142, 173);
+    width: 123px;
+    height: 34px;
+    color: white;
+    border-radius: 11px;
+    box-shadow: none;
+    border-style: none;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+
+}
+
+.box-text {
+    font-weight: 600;
+    font-size: 41px;
+}
+
+.sort-by {
+    position: absolute;
+    bottom: 22px;
+    z-index: 12;
+    margin: auto;
+    left: 287px;
+}
