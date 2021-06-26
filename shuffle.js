@@ -13,7 +13,7 @@ function createCard(index) {
     document.getElementsByClassName("cards-container")[0].appendChild(node);
 }
 
-//clears all cards from DOM and then randomly generated cards 
+//clears all cards from DOM and then randomly generates cards 
 function shuffleCards() {
     clearCards();
     const generatedCards = [];
